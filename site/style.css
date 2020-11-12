@@ -1,0 +1,93 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+	.header {
+	text-align: center;
+	font-weight: 50px;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title__menu {
+	border: 2px solid black;
+	display: box;
+	float: right;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-right: 0px;
+	width: 100px;
+	border-collapse: separate;
+	background-color: red;
+	text-align: center;
+
+}
+
+.text__menu {
+	clear: both;
+
+}
+@media (min-width: 992px) {
+
+
+
+.menu {
+	display: block;
+	border: 2px solid black;
+	border-collapse: collapse;
+	max-width: 31%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 1%;
+	background-color: grey;
+	box-sizing: border-box;
+
+	}
+}
+
+ @media (min-width: 768px) and (max-width: 991px) {
+ 	.menu {
+	display: block;
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 48%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 1%;
+	background-color: grey;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+
+	}
+	.menu3 {
+	display: block;
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 98%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 1%;
+	background-color: grey;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	}
+}
+
+ @media (max-width: 767px) {
+ 	.menu {
+	display: block;
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-right: 2%;
+	margin-left: 2%;
+	background-color: grey;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+
+}
+
