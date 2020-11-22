@@ -4,9 +4,16 @@
     margin-left: 1%;
 }
 
+.navbar {
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 20px;
+
+}
 	.header {
 	text-align: center;
 	font-weight: 50px;
+	margin-bottom: 20px;
 }
 .container {
 	margin-left: auto;
@@ -48,6 +55,9 @@
 	box-sizing: border-box;
 
 	}
+.nav-link {
+	visibility: hidden;
+}
 }
 
  @media (min-width: 768px) and (max-width: 991px) {
@@ -75,7 +85,11 @@
 	background-color: grey;
 	box-sizing: border-box;
 	margin-bottom: 10px;
+	
 	}
+	.navbar-nav {
+		text-align: center;
+   }
 }
 
  @media (max-width: 767px) {
@@ -88,6 +102,9 @@
 	background-color: grey;
 	box-sizing: border-box;
 	margin-bottom: 10px;
+	 }
+	 .navbar-nav {
+		 text-align: center;
+	}
 
 }
-
